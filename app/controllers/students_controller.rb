@@ -24,4 +24,8 @@ class StudentsController < ApplicationController
     
   end
   
+  private
+  
+  def 
+  
 end
