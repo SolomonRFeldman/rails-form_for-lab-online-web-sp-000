@@ -27,7 +27,7 @@ class StudentsController < ApplicationController
   private
   
   def student_params
-    
+    params.require(:student)
   end
   
 end
