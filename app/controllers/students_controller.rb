@@ -9,11 +9,12 @@ class StudentsController < ApplicationController
   end
 
   def new
-    student = Student.create(student_params)
+ 
   end
   
   def create
-    
+    student = Student.create(student_params)
+    redirect_to student_path(student)
   end
   
   def edit
